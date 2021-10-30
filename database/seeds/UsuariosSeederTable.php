@@ -49,12 +49,12 @@ class UsuariosSeederTable extends Seeder
             "role_id" => 3,
         ]);
         DB::table('users')->insert([
-            "nombre"=>"Javier",
-            "apellido" => "Salinas",
-            "fechaNacimiento" => "2000-12-20",
-            "direccion" => "San salvador",
+            "nombre"=>"Terresa",
+            "apellido" => "Hernandez",
+            "fechaNacimiento" => "1995-12-20",
+            "direccion" => "Santiago Texacuangos",
             "dui" => "19239834-2",
-            "genero" => "M",
+            "genero" => "FEMENINA",
             "telefono" => 7438945,
             "email" => "estudiante1@gmail.com",
             "password" => bcrypt('jose'),
