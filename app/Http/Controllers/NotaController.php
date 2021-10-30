@@ -46,16 +46,7 @@ class NotaController extends Controller
         //
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Nota  $nota
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Nota $nota)
-    {
-        //
-    }
+
 
     /**
      * Show the form for editing the specified resource.

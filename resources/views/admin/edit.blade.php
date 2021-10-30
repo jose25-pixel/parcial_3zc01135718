@@ -11,7 +11,7 @@
                     <form class="bg-primary shadow rounded py-3 px-4 text-center" method="POST" action="{{ route('user.update',$user) }}">
                         @csrf @method('PUT')
 
-                        @include('administrador._form')
+                        @include('admin._form')
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
