@@ -18,6 +18,7 @@
                                 <button type="submit" class="btn btn-success">
                                     {{ __('Actualizar') }}
                                 </button>
+                                     <a class=" btn btn-dark " href="{{ route('user.index') }}">Cancelar</a>
                             </div>
                         </div>
                     </form>

@@ -33,6 +33,8 @@
                     </select>
                 </div>
                 <button type="submit" class="btn btn-success">Guardar curso</button>
+                <a class=" btn btn-dark " href="{{ route('curso.index') }}">Cancelar</a>
+
             </form>
         </div>
     </div>

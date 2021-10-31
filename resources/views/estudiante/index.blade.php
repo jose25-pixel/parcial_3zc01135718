@@ -6,7 +6,7 @@
 
     <div class="d-flex justify-content-between my-3">
         <h3>Asignaturas</h3>
-        <a class="btn btn-outline-success" href="{{ route('estudiante.show') }}">Ver notas</a>
+        <a class="btn btn-success" href="{{ route('estudiante.show') }}">Ver notas</a>
     </div>
     <table class="table table-responsive-sm table-striped table-hover" id="table_id">
         <thead class="table-dark">
@@ -27,7 +27,7 @@
                    <form action="{{ route('estudiante.store') }}" method="POST">
                         @csrf
                         <input type="hidden" name="curso_id" value="{{ $curso->id }}">
-                       <button type="submit" class="btn btn-info">Inscribir </i></button>
+                       <button type="submit" class="btn btn-info">Selecionar</i></button>
                    </form>
                 </td>
             </tr>

@@ -4,7 +4,7 @@
 <div class="container">
     <div class="d-flex justify-content-between">
         <h2>Usuarios en el sistema </h2>
-        <a class="btn btn-outline-success mb-3" href="{{ route('user.create') }}">Agregar+ </a>
+        <a class="btn btn-success mb-3" href="{{ route('user.create') }}">Agregar+ </a>
     </div>
     <table class="table table-responsive-sm table table-hover" id="table_usuario">
         <thead class="table-dark">

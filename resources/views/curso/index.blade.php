@@ -4,7 +4,7 @@
 @section('content')
 <div class="container">
     <h1 class="text-center text-dark py-3">Cursos</h1>
-         <a class="btn btn-outline-success mb-3" href="{{ route('curso.create') }}">Agregar +</a>
+         <a class="btn btn-success mb-3" href="{{ route('curso.create') }}">Agregar +</a>
     <div class="row">
 
         <div class="col-12 col-md-12">
