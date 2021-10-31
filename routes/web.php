@@ -52,10 +52,7 @@ Route::get('/notas/{curso}', 'NotaController@index')->name('nota.index');
 Route::get('/notas/edit/{nota}', 'NotaController@edit')->name('nota.edit');
 Route::put('/notas/{nota}/{curso}', 'NotaController@update')->name('nota.update');
 
-/***
- * 
- * ESTUDIANTE
- */
+/******************************* Ruta estudiante***********************************/
 Route::get('/estudiante', 'EstudianteController@index')->name('estudiante.index');
 Route::post('/estudiante', 'EstudianteController@store')->name('estudiante.store');
 Route::get('/estudiante/mis-notas', 'EstudianteController@notas')->name('estudiante.show');
